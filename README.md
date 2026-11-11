@@ -41,7 +41,7 @@ For Gatekeeper prompts and troubleshooting, read the [installation guide](docs/I
 ## Requirements
 
 - **macOS 13.0 or later**, per the supplied v1.0.0 app bundle metadata.
-- Compatible Mac hardware (CPU architectures and clean-install behavior still need release verification).
+- **Apple Silicon (ARM64)** Mac, as identified from the supplied executable. Intel Macs are not supported by the provided build.
 
 ## About
 
