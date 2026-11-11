@@ -4,7 +4,7 @@
        width="128"
        alt="Quran Notch Icon">
 </p>
-# Quran Notch
+Quran Notch
 
 **A moment of Quranic reflection, right in your menu bar.**
 
