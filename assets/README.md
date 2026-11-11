@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="assets/icon.png"
+       width="128"
+       alt="Quran Notch Icon">
+</p>
 # Visual assets
 
 - `interface-preview.svg` — illustrative recreation of the app UI for README presentation, **not a direct screenshot**.
