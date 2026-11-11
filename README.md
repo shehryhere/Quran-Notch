@@ -40,7 +40,21 @@ When a release asset is available:
 3. Open the DMG and drag **Quran Notch.app** into **Applications**.
 4. Open Quran Notch from Applications and use its menu-bar interface.
 
-For Gatekeeper prompts and troubleshooting, read the [installation guide](docs/INSTALL.md).
+### First launch: macOS may block the app
+
+If macOS says it **cannot verify the developer** or **cannot check Quran Notch for malicious software**, the app may not open on your first attempt.
+
+Only if you downloaded Quran Notch from this repository and trust the file:
+
+1. Try to open **Quran Notch** from Applications, then dismiss the security warning.
+2. Open **Apple menu → System Settings → Privacy & Security**.
+3. Scroll to **Security** and find the message about Quran Notch.
+4. Click **Open Anyway**, then confirm **Open** and authenticate if prompted.
+5. Open the app normally after macOS saves this exception.
+
+The **Open Anyway** button typically appears only after the first blocked launch, and may be available for roughly one hour. Do **not** disable Gatekeeper system-wide. If macOS warns that the app **will damage your computer** or the file is **damaged**, don't override the warning; report the issue instead.
+
+For detailed screenshots-independent guidance, see the [full installation guide](docs/INSTALL.md) or [Apple's instructions](https://support.apple.com/en-us/102445).
 
 ## Requirements
 
