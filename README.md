@@ -52,7 +52,7 @@ Only if you downloaded Quran Notch from this repository and trust the file:
 4. Click **Open Anyway**, then confirm **Open** and authenticate if prompted.
 5. Open the app normally after macOS saves this exception.
 
-The **Open Anyway** button typically appears only after the first blocked launch, and may be available for roughly one hour. Do **not** disable Gatekeeper system-wide. If macOS warns that the app **will damage your computer** or the file is **damaged**, don't override the warning; report the issue instead.
+The **Open Anyway** button typically appears only after the first blocked launch, and may be available for roughly one hour. Do **not** disable Gatekeeper system-wide. 
 
 For detailed screenshots-independent guidance, see the [full installation guide](docs/INSTALL.md) or [Apple's instructions](https://support.apple.com/en-us/102445).
 
