@@ -1,5 +1,9 @@
 <div align="center">
-
+<p align="center">
+  <img src="assets/icon.png"
+       width="128"
+       alt="Quran Notch Icon">
+</p>
 # Quran Notch
 
 **A moment of Quranic reflection, right in your menu bar.**
