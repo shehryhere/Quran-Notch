@@ -4,57 +4,62 @@
 
 **A moment of Quranic reflection, right in your menu bar.**
 
-A quiet space for the Quran on macOS — Arabic verses and English translation, thoughtfully presented in your menu bar.
+A minimal Quran companion for macOS, with Arabic ayat and their English translation — designed for quiet reflection throughout the day.
 
-[**Releases**](https://github.com/shehryhere/Quran-Notch/releases) · [Installation guide](docs/INSTALL.md) · [Release notes](CHANGELOG.md)
+[Installation](docs/INSTALL.md) · [Releases](https://github.com/shehryhere/Quran-Notch/releases) · [Changelog](CHANGELOG.md)
+
+<img src="assets/interface-preview.svg" alt="Illustrative Quran Notch interface showing Surah Az-Zalzalah 99:7" width="100%">
+
+<sub>Interface illustration based on the running app. Real screenshots are being prepared for publication.</sub>
 
 </div>
 
----
-
 ## A little reflection, every day
 
-Quran Notch is a minimal macOS menu bar application that brings a Quranic verse and its meaning into your daily routine, without distracting from your work.
+Quran Notch places a daily Quranic verse in a slim macOS menu-bar display. Open its panel for Arabic text, an English translation, the surah name, and verse reference.
 
 ### Features
 
-- **Arabic and English:** Quranic verses paired with the Saheeh International English translation.
-- **At a glance:** A simple, focused interface accessible from the macOS menu bar.
-- **Daily reflection:** A verse selected for each day.
-- **Designed to stay out of the way:** A lightweight, minimal experience.
+- **Quran at a glance** — a discreet English verse in the menu bar.
+- **Arabic and translation** — expanded reading panel with Saheeh International English translation.
+- **Daily ayah** — designed to refresh on the user's local calendar day.
+- **Minimal macOS experience** — dark interface with quick access and a lightweight menu-bar presence.
 
-## Preview
+## Installation
 
-A screenshot of the actual app will appear here once an authentic capture is added at `assets/screenshot.png`.
+**Status:** The original macOS application bundle has been supplied for release preparation, but a downloadable DMG has not yet been published.
 
-## Install
+When a release asset is available:
 
-The downloadable DMG has not yet been added to GitHub Releases.
+1. Open the [Releases page](https://github.com/shehryhere/Quran-Notch/releases).
+2. Download the official `Quran-Notch-v1.0.0.dmg`.
+3. Open the DMG and drag **Quran Notch.app** into **Applications**.
+4. Open Quran Notch from Applications and use its menu-bar interface.
 
-1. Open [GitHub Releases](https://github.com/shehryhere/Quran-Notch/releases).
-2. Download the `Quran-Notch-v1.0.0.dmg` file when it is available.
-3. Open the downloaded DMG and copy **Quran Notch** to **Applications** (follow the layout of the DMG).
-4. Open Quran Notch from Applications and find it in your menu bar.
+For Gatekeeper prompts and troubleshooting, read the [installation guide](docs/INSTALL.md).
 
-If macOS displays a security warning, see the [installation guide](docs/INSTALL.md). Do not disable Gatekeeper globally.
+## Requirements
+
+- **macOS 13.0 or later**, per the supplied v1.0.0 app bundle metadata.
+- Compatible Mac hardware (CPU architectures and clean-install behavior still need release verification).
 
 ## About
 
 | | |
 | --- | --- |
-| Application | Quran Notch |
+| App | Quran Notch |
 | Version | 1.0.0 |
+| Developer | Shehryar Bin Habib ([@shehryhere](https://github.com/shehryhere)) |
+| English translation | Saheeh International |
 | Platform | macOS |
-| Author | Shehryar Bin Habib ([@shehryhere](https://github.com/shehryhere)) |
-| English Quran translation | Saheeh International |
 
-## Source and licensing
+## Source and license
 
-The application source is not yet published in this repository. Source distribution and licensing terms will be stated when the final project files have been reviewed. Until then, no open-source license is granted by this repository.
+The supplied application is a compiled `.app` bundle; the original Swift source has **not** been published in this repository. No open-source license is currently granted. The repository may be publicly visible without being open source.
 
 ## Credits
 
-English Quran translation: **Saheeh International**. Quranic text and translations should be distributed only with the necessary permissions and attribution.
+English Quran translation: **Saheeh International**. Any distribution of Quran or translation datasets should comply with the applicable terms and attribution requirements.
 
 ---
 
