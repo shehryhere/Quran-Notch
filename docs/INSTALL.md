@@ -29,7 +29,6 @@ If you see an alert such as **“Apple cannot check it for malicious software”
 
 **Can't find “Open Anyway”?** You must first try launching the app so macOS can show the specific exception. The button may only be available for about an hour after that launch attempt. Try opening the app again and return to **Privacy & Security**.
 
-**Security:** Bypassing this check for an unknown or tampered-with download can expose your Mac to malware. Never disable Gatekeeper globally. If macOS says the app **will damage your computer**, or that the app is **damaged**, do not bypass that alert; instead report the problem.
 
 Official reference: [Apple Support — Safely open apps on your Mac](https://support.apple.com/en-us/102445).
 
