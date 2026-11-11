@@ -1,14 +1,21 @@
-# Release checklist (maintainer)
+# Publication checklist
 
-- [x] Create public repository `shehryhere/Quran-Notch`.
-- [x] Publish README and installation documentation.
-- [ ] Add reviewed, tested final source code and build scripts.
-- [ ] Add the approved crescent PNG as `assets/icon.png`.
-- [ ] Add a genuine, privacy-reviewed screenshot as `assets/screenshot.png` and embed it in README.
-- [ ] Confirm minimum supported macOS version and CPU architectures.
-- [ ] Confirm daily verse rotation at local midnight on the released build.
-- [ ] Decide and document source licensing; do not add a license without authorization.
-- [ ] Confirm Quran text and translation redistribution permissions and credits.
-- [ ] Upload tested DMG through GitHub Releases tagged `v1.0.0`.
-- [ ] Verify opening the distributed app and any Gatekeeper prompts on a clean Mac.
-- [ ] Remove pending-release notices only after the release exists.
+## Repository
+- [x] Public repository initialized
+- [x] Clean README, install guide and changelog
+- [x] Publish an **illustrative** SVG preview
+- [ ] Upload original crescent icon PNG
+- [ ] Upload real app screenshot PNG
+- [ ] Decide whether to publish original Swift source and a license
+
+## App distribution
+- [x] Receive compiled `Quran Notch.app` ZIP
+- [x] Inspect app metadata: version 1.0.0, minimum macOS 13.0
+- [ ] Verify binary architecture, notarization and signing on a Mac
+- [ ] Test daily ayah refresh through local midnight
+- [ ] Build and test release DMG using `scripts/make-dmg.sh`
+- [ ] Publish GitHub Release tagged `v1.0.0` with a tested DMG
+- [ ] Update README to link the final release and replace pending-release notes
+- [ ] Verify Quranic text / translation redistribution rights
+
+Never describe a build as signed/notarized without verifying it.
